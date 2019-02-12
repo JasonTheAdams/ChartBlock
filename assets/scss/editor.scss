@@ -1,0 +1,13 @@
+.components-panel {
+    &__row {
+        &--top-align {
+            align-items: flex-start;
+        }
+    }
+}
+
+.components-base-control {
+    &--columned {
+        width: 48%;
+    }
+}

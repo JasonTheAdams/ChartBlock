@@ -1,0 +1,28 @@
+{
+  "name": "chartblock",
+  "version": "1.0.0",
+  "description": "Adds a block to Gutenberg for displaying interactive charts",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "Jason Adams",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "2.0.1",
+    "laravel-mix": "^4.0.14",
+    "sass": "^1.17.0",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.4"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "lodash": "^4.17.11"
+  }
+}
