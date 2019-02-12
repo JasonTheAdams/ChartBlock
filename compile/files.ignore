@@ -3,7 +3,7 @@ cypress
 cypress.json
 node_modules
 composer.*
-messagewp.zip
+chartblock.zip
 package.json
 package-lock.json
 webpack.mix.js
